@@ -11,7 +11,14 @@
 ```
 - this command will run : 
 ```
-eksctl create cluster --name=eks-cluster --region=ap-south-1 --version=1.29 --nodegroup-name=my-nodes --node-type=t3.medium --managed --nodes=2 --nodes-min=2 --nodes-max=3
+    eksctl create cluster --name=eks-cluster \
+        --region=ap-south-1 \
+        --nodegroup-name=my-nodes \
+        --node-type=t3.medium \
+        --managed \
+        --nodes=2 \
+        --nodes-min=2 \
+        --nodes-max=3
 ```
 <img src=imgs/eks_eksctl.png>
 
