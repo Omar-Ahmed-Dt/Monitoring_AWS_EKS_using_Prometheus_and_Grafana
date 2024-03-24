@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 create_cluster() {
     eksctl create cluster --name=eks-cluster \
